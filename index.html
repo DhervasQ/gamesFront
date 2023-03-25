@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="games.js" defer></script>
+    <title>Games</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="divLogin">
+      <div>
+          <h1>Welcome back!</h1>
+      </div>
+      
+          <div>
+              <label for="email">Email or username</label>
+          </div>
+          <div>
+              <input name="pass" id="mail" placeholder="Enter your email or username" minlength="11" required>       
+          </div>
+              <div>
+            <label for="password">Password</label>
+          </div>
+          <div>
+            <input type="password" name="pass" id="pass" placeholder="Enter Password" minlength="11" required>
+          </div>
+          <div>
+              <button type="button" class="style-button2" id="login">Log in</button>
+              <button type="button" class="style-button2" id="signin">Sign in</button>
+          </div>
+      </div>
+    <div id="divPage" class="hidden">
+    <header>
+ 
+      <div class="navbar__placeholder"></div>
+      <nav class="navbar">
+        <ul  class="navbar__index">
+          <li class="navbar__index--item"><button type="button" class="navButton">  <img class="navButtonImage"  src="./assets/menu.png"></img></button></li>
+        </ul>
+        <ul id="navBar" class="hidden">
+          <li class="navbar__subindex--item">
+            <button type="button">All</button>
+          </li>
+          <li class="navbar__subindex--item">
+            <button type="button">PS5</button>
+          </li>
+          <li class="navbar__subindex--item">
+            <button type="button">Xbox Series X</button>
+          </li>
+          <li class="navbar__subindex--item">
+            <button type="button">PC</button>
+          </li>
+        
+        </ul>
+      </nav>
+
+      <div class="parrafo-central">
+        <p class="parrafo-central__title"></p>
+        <img  src="./assets/logo.png"></img>
+      </div>
+      <nav class="search">
+        <ul>
+          <li class="search__input">
+            <div class="search__input--underline">
+              <input
+                type="text"
+                class="search__input--text"
+                name="search_query"
+                value=""
+                placeholder="Buscar"
+              />
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="container__paginacion">
+        <button type="button" class="container__button--ant">Anterior</button
+        ><button type="button" class="container__button--sig">Siguiente</button>
+      </div>
+      <ol id="games"></ol>
+    </div>
+  </div>
+  </body>
+</html>
