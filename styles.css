@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: rubik;
   color: rgb(23, 11, 45);
- 
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -34,7 +34,7 @@ input {
   font-family: impact;
   font-size: 22px;
 
-  -webkit-text-fill-color: #6E7074;
+  -webkit-text-fill-color: #6e7074;
 }
 .container__button--ant {
   background-color: Transparent;
@@ -46,20 +46,20 @@ input {
   text-align: center;
   font-family: impact;
   font-size: 22px;
-  -webkit-text-fill-color: #6E7074;
+  -webkit-text-fill-color: #6e7074;
 }
 .card {
-
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   list-style: none;
-  padding: 40px;
+  padding: 20px;
   background-color: rgb(242, 242, 242);
   color: #222;
   text-align: center;
-  border-radius: 15%;
+  border-radius: 10%;
+  width: 200px;
 }
 .card-title {
   text-transform: uppercase;
@@ -68,12 +68,38 @@ input {
   margin-bottom: 0;
   display: flex;
   justify-content: center;
-  color:#3663AD;
+  color: #3663ad;
+}
+.card-p-1 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 90, 30);
+}
+.card-p-2 {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.card-p-3 {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: black;
 }
 .card-subtitle {
   font-weight: lighter;
   color: #666;
-  margin-top: 5px;
+  margin: 5px;
 }
 .card-image {
   height: 100%;
@@ -132,9 +158,8 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.navButtonImage{
+.navButtonImage {
   width: 20px;
-
 }
 .navbar__placeholder {
   offset: -1;
@@ -142,7 +167,7 @@ header {
 }
 
 .hidden {
-visibility: hidden;
+  visibility: hidden;
 }
 
 .navbar {
@@ -271,7 +296,7 @@ visibility: hidden;
   border: 0;
   outline: 0;
   background: transparent;
-  color:rgb(17, 17, 13);
+  color: rgb(17, 17, 13);
 }
 
 .search__input--icon {
@@ -316,10 +341,9 @@ header button {
   text-align: center;
   color: rgb(29, 5, 83);
   font-family: impact;
-  font-size:18 px;
+  font-size: 18 px;
 
-  -webkit-text-fill-color: #6E7074;
-
+  -webkit-text-fill-color: #6e7074;
 }
 .card__button {
   display: flex;
@@ -328,106 +352,17 @@ header button {
   font-weight: 0;
   font-size: 14px;
   color: #fff;
-  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  background: linear-gradient(90deg, rgb(241, 90, 30) 0%, black 100%);
   padding: 10px 15px;
   border: none;
   border-radius: 50px;
   transition: 1000ms;
   transform: translateY(0);
+  margin: 5px;
 }
 
 .colorNull {
   background-color: rgb(255, 255, 255);
-}
-.colorFire {
-  background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(229, 229, 5) 100%);
-}
-.colorWater {
-  background: linear-gradient(
-    90deg,
-    rgb(167, 160, 210) 0%,
-    rgb(7, 27, 130) 100%
-  );
-}
-.colorFlying {
-  color: black;
-  background: linear-gradient(
-    90deg,
-    rgb(213, 242, 246) 0%,
-    rgb(116, 227, 255) 100%
-  );
-}
-.colorBug {
-  background: linear-gradient(90deg, rgb(44, 221, 0) 0%, rgb(242, 0, 255) 100%);
-}
-.colorPoison {
-  background: linear-gradient(
-    90deg,
-    rgb(252, 157, 251) 0%,
-    rgb(255, 0, 208) 100%
-  );
-}
-.colorNormal {
-  background: linear-gradient(
-    90deg,
-    rgb(220, 220, 220) 0%,
-    rgb(61, 61, 61) 100%
-  );
-}
-.colorElectric {
-  color: black;
-  background: linear-gradient(90deg, rgb(255, 246, 85) 0%, #6E7074 100%);
-}
-.colorGround {
-  background: linear-gradient(90deg, rgb(128, 64, 0) 0%, #6E7074 100%);
-}
-.colorFairy {
-  background: linear-gradient(
-    90deg,
-    rgb(65, 1, 48) 0%,
-    rgb(217, 134, 245) 100%
-  );
-}
-.colorGrass {
-  background: linear-gradient(90deg, rgb(51, 255, 0) 0%, rgb(2, 63, 0) 100%);
-}
-.colorFighting {
-  background: linear-gradient(90deg, gb(128, 64, 0) 0%, rgb(88, 0, 159) 100%);
-}
-.colorPsychic {
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(153, 153, 153) 100%);
-}
-.colorRock {
-  background: linear-gradient(
-    90deg,
-    rgb(146, 146, 146) 0%,
-    rgb(54, 54, 54) 100%
-  );
-}
-.colorSteel {
-  color: black;
-  background: linear-gradient(
-    90deg,
-    rgb(255, 255, 255) 0%,
-    rgb(254, 254, 116) 100%
-  );
-}
-.colorIce {
-  background: linear-gradient(
-    90deg,
-    rgb(30, 108, 192) 0%,
-    rgb(149, 170, 180) 100%
-  );
-}
-.colorGhost {
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(109, 109, 109) 100%);
-}
-.colorDragon {
-  background: linear-gradient(
-    90deg,
-    rgb(0, 9, 112) 0%,
-    rgb(234, 153, 254) 100%
-  );
 }
 
 .card__ul {
