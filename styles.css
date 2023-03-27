@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&display=swap");
+.login {
+  display: flex;
+  justify-content: center;
+}
+.loginA {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin: 20px;
+}
 body {
   background-color: rgb(255, 255, 255);
   margin: 0;

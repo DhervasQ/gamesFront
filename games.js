@@ -1,6 +1,6 @@
 const listaHtml$$ = document.querySelector("#games");
 let pagina = 1;
-let elementosPagina =25;
+let elementosPagina =16;
 let direccionBase = "http://localhost:5000/games";
 let token=undefined;
 
